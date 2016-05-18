@@ -44,6 +44,7 @@ Route::get('mypage', function(){
 	return view('mypage', $data);
 });
 
+Route::get('restAPi', 'RestAPI@saveApiData');
 
 /*
 |--------------------------------------------------------------------------
